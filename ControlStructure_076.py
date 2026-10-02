@@ -25,3 +25,17 @@ else:
     terbesar = angka3
 
 print("Bilangan terbesar adalah:", terbesar)
+
+#3.Deret Fibonaci
+n = int(input("Masukkan jumlah angka Fibonacci: "))
+
+a = 0
+b = 1
+
+print("Deret Fibonacci:")
+
+for i in range(n):
+    print(a, end=" ")
+    c = a + b
+    a = b
+    b = c
