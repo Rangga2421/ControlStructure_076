@@ -39,3 +39,13 @@ for i in range(n):
     c = a + b
     a = b
     b = c
+
+#4.Menampilkan Bilangan Ganjil Sampai N
+
+n = int(input("Masukkan batas angka: "))
+
+print("Bilangan ganjil:")
+
+for i in range(1, n + 1):
+    if i % 2 != 0:
+        print(i, end=" ")
